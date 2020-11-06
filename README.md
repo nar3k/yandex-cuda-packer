@@ -25,8 +25,8 @@ export YC_FOLDER_ID=$(yc config get folder-id)
 2) Then you can get this repo and execute packer recipe 
 
 ```
-git clone #this repo
-cd cuda-packer
+git clone https://github.com/nar3k/yandex-cuda-packer.git
+cd yandex-cuda-packer
 $ packer build cuda-packer-ubuntu.json
 ```
 
