@@ -6,10 +6,10 @@ This repo shows how to create image with custom cuda version in Yandex Cloud for
 ### Prerequisites
 
 
-1) Account in Yandex.Cloud and  quota enoght for 1 GPU VM - 1 GPU, 8 Cores, 96 Gb of ram , 33 Gb SSd Disk . Quotas can be found here https://console.cloud.yandex.ru/cloud?section=quotas 
-2) Installed  packer ( you can archive it into the binary) and jq
+1) Account in Yandex.Cloud and  quota enought for 1 GPU VM - 1 GPU, 8 Cores, 96 Gb of ram , 33 Gb SSd Disk . Quotas can be found [here](https://console.cloud.yandex.ru/cloud?section=quotas)
+2) Installed  [packer](https://www.packer.io) (you can archive it into the binary) and jq
 3) Some bash shell 
-4) Installed Yandex.Cloud Cli -  https://cloud.yandex.com/docs/cli/quickstart 
+4) Installed and initiated [Yandex.Cloud Cli](https://cloud.yandex.com/docs/cli/quickstart)
 
 
 ## Part One - Image creation with packer
